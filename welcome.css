@@ -1,0 +1,60 @@
+.container{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.map{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    border: 2px solid rgb(223, 138, 181);
+    border-radius: 13px;
+    background-color: rgb(240, 204, 226);
+   font-style: italic;
+  
+}
+.map img{
+    height: 200px;
+    margin: 10px 20px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 15px;
+    padding: 0px;
+}
+
+.utilities{
+    display: grid;
+    grid-template-columns: 230px 230px;
+    grid-template-rows: 80px 80px 80px;
+   
+    
+    
+}
+
+.utilities a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+   font-style: italic;
+}
+.extra{
+border: none;
+background-color: rgb(153, 216, 230);
+margin: 10px ;
+padding: 20px;
+border: none;
+border-radius: 4px;
+display: flex;
+justify-content: center;
+align-items:center;
+}
+
+.extra img{
+   height: 30px;
+margin-right: 10px;
+}
+
