@@ -1,6 +1,6 @@
 # Delhi Metro Job Portal Web App
 
-This is a full-stack web application built using **PHP**, **MySQL**, **CSS**, and **Bootstrap**. It allows users to sign up, log in, and apply for various job openings in departments like HR, Finance, Operations, and Internships. The project includes a modular structure using partials and a navigation system, all running locally through XAMPP.
+This is a full-stack web application built using **PHP**, **MySQL**, **CSS**, and **Bootstrap**. It allows users to sign up, log in, and apply for various job openings in departments like HR, Finance, Operations, and Internships. The project includes a modular structure using partials and a navigation system, all running locally through XAMPP
 
 ---
 
