@@ -28,7 +28,7 @@ This is a full-stack web application built using **PHP**, **MySQL**, **CSS**, an
 ---
 
 ## Folder & File Structure
-
+'''
 DelhiMetroApp/
 ├── welcome.php                   # Homepage after login
 ├── login.php                     # Login form
@@ -65,7 +65,7 @@ DelhiMetroApp/
 │
 └── README.md                     # Project documentation
 
-
+'''
 
 ---
 
@@ -113,7 +113,7 @@ user_id INT,
 department VARCHAR(50),
 application_date DATE
 );
-
+'''
 ---
 
 ## Future Enhancements
