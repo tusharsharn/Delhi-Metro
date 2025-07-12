@@ -30,30 +30,28 @@ This is a full-stack web application built using **PHP**, **MySQL**, **CSS**, an
 ## Folder & File Structure
 
 DelhiMetroApp/
+├── welcome.php                   # Homepage after login
+├── login.php                     # Login form
+├── signup.php                    # Registration form
+├── logout.php                    # Logout and session destroy
+├── metro-map.php                 # Static or embedded metro map
+├── navigation.php                # Reusable navigation bar
+├── style.css                     # Custom CSS styles
 │
-├── welcome.php                # Homepage after login
-├── login.php                  # User login page
-├── signup.php                 # User registration page
-├── logout.php                 # Session logout and redirect
-├── metro-map.php              # Static or embedded metro map
-├── navigation.php             # Navbar (included in every page)
+├── hr.php                        # HR job application form
+├── operationmanagement.php       # Operations job form
+├── finance.php                   # Finance department form
+├── intern.php                    # Internship form
+├── account.php                   # Accounts job form
 │
-├── hr.php                     # HR job application form
-├── operationmanagement.php    # Operations job form
-├── finance.php                # Finance job form
-├── intern.php                 # Internship application form
-├── account.php                # Accounts job form
-│
-├── style.css                  # Custom CSS styles
-│
-├── /assets/                   # (Optional) Static files: images, logos, metro map
+├── assets/                       # Static assets (images, icons)
 │   └── logo.png
 │
-├── /partials/                 # Common include files
-│   ├── dbconnect.php          # Central DB connection file
-│   └── alerts.php             # Bootstrap alert templates (optional)
+├── partials/                     # Common backend components
+│   ├── dbconnect.php             # MySQL database connection
+│   └── alerts.php                # Optional alert system (Bootstrap-based)
 │
-├── /partials/forms/           # Form handlers for each form
+├── partials/forms/               # PHP form processing scripts
 │   ├── handle_login.php
 │   ├── handle_signup.php
 │   ├── handle_hr.php
@@ -62,10 +60,10 @@ DelhiMetroApp/
 │   ├── handle_intern.php
 │   └── handle_account.php
 │
-├── /sql/                      # Database schema (for import in phpMyAdmin)
+├── sql/                          # Database schema files
 │   └── metro_app.sql
 │
-└── README.md                  # Project documentation
+└── README.md                     # Project documentation
 
 
 
@@ -116,6 +114,8 @@ department VARCHAR(50),
 application_date DATE
 );
 
+---
+
 ## Future Enhancements
 - Password encryption (bcrypt or password_hash)
 
@@ -127,10 +127,11 @@ application_date DATE
 
 - Deploy live with a custom domain
 
-## Author
-👨‍💻 Tushar Saharan  
-📍 India  
-🔗 [LinkedIn](https://www.linkedin.com/in/tushar-saharan-55552a230/)  
-💼 GitHub: [tusharsharn](https://github.com/tusharsharn)  
+---
+
+👤 Author: Tushar Saharan  
+🌐 GitHub: https://github.com/tusharsharn  
+🔗 LinkedIn: https://www.linkedin.com/in/tushar-saharan-55552a230/  
 📧 Email: saharantushar58@gmail.com
+
 
