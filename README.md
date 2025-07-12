@@ -28,30 +28,30 @@ This is a full-stack web application built using **PHP**, **MySQL**, **CSS**, an
 ---
 
 ## Folder & File Structure
-'''
+```
 DelhiMetroApp/
-├── welcome.php                   # Homepage after login
-├── login.php                     # Login form
-├── signup.php                    # Registration form
-├── logout.php                    # Logout and session destroy
-├── metro-map.php                 # Static or embedded metro map
-├── navigation.php                # Reusable navigation bar
-├── style.css                     # Custom CSS styles
+├── welcome.php
+├── login.php
+├── signup.php
+├── logout.php
+├── metro-map.php
+├── navigation.php
+├── style.css
 │
-├── hr.php                        # HR job application form
-├── operationmanagement.php       # Operations job form
-├── finance.php                   # Finance department form
-├── intern.php                    # Internship form
-├── account.php                   # Accounts job form
+├── hr.php
+├── operationmanagement.php
+├── finance.php
+├── intern.php
+├── account.php
 │
-├── assets/                       # Static assets (images, icons)
+├── assets/
 │   └── logo.png
 │
-├── partials/                     # Common backend components
-│   ├── dbconnect.php             # MySQL database connection
-│   └── alerts.php                # Optional alert system (Bootstrap-based)
+├── partials/
+│   ├── dbconnect.php
+│   └── alerts.php
 │
-├── partials/forms/               # PHP form processing scripts
+├── partials/forms/
 │   ├── handle_login.php
 │   ├── handle_signup.php
 │   ├── handle_hr.php
@@ -60,12 +60,12 @@ DelhiMetroApp/
 │   ├── handle_intern.php
 │   └── handle_account.php
 │
-├── sql/                          # Database schema files
+├── sql/
 │   └── metro_app.sql
 │
-└── README.md                     # Project documentation
+└── README.md
+```
 
-'''
 
 ---
 
