@@ -112,7 +112,11 @@ id INT AUTO_INCREMENT PRIMARY KEY,
 user_id INT,
 department VARCHAR(50),
 application_date DATE
-);```
+);
+```
+
+<img width="1920" height="1027" alt="Screenshot (112)" src="https://github.com/user-attachments/assets/fa794642-1a07-4074-923d-e43806c23644" />
+
 
 ## Future Enhancements
 - Password encryption (bcrypt or password_hash)
@@ -127,9 +131,8 @@ application_date DATE
 
 ---
 
-👤 Author: Tushar Saharan  
-🌐 GitHub: https://github.com/tusharsharn  
-🔗 LinkedIn: https://www.linkedin.com/in/tushar-saharan-55552a230/  
-📧 Email: saharantushar58@gmail.com
+## Author
+-   Tushar Saharan
+-   Email: saharantushar58@gmail.com
 
 
