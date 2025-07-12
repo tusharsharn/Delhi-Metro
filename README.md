@@ -30,41 +30,41 @@ This is a full-stack web application built using **PHP**, **MySQL**, **CSS**, an
 ## Folder & File Structure
 ```
 DelhiMetroApp/
-├── welcome.php
-├── login.php
-├── signup.php
-├── logout.php
-├── metro-map.php
-├── navigation.php
-├── style.css
+├── acc.php                    # Accounts job form
+├── finance.php                # Finance job form
+├── hr.php                     # HR job form
+├── intern.php                 # Internship form
+├── it.php                     # IT job form
+├── om.php                     # Operations Management form
 │
-├── hr.php
-├── operationmanagement.php
-├── finance.php
-├── intern.php
-├── account.php
+├── login.php                  # User login page
+├── logout.php                 # User logout script
+├── signup.php                 # User signup page
+├── welcome.php                # Homepage after login
 │
-├── assets/
-│   └── logo.png
+├── bootstrap.css              # Bootstrap styles
+├── nav.css                    # Navbar styling
+├── welcome.css                # Custom welcome page styling
 │
-├── partials/
-│   ├── dbconnect.php
-│   └── alerts.php
+├── insta.png                  # Instagram icon/image
+├── twitter.png                # Twitter icon/image
 │
-├── partials/forms/
-│   ├── handle_login.php
-│   ├── handle_signup.php
-│   ├── handle_hr.php
-│   ├── handle_operations.php
-│   ├── handle_finance.php
-│   ├── handle_intern.php
-│   └── handle_account.php
+├── partials/                  # Reusable components & DB connectors
+│   ├── nav.php                # Common navigation bar
+│   ├── dbconnect.php          # Main DB connection file
+│   ├── connect_it.php
+│   ├── connect_intern.php
+│   ├── connect_om.php
+│   ├── connect_hr.php
+│   ├── connect_finance.php
+│   ├── connect_acc.php
 │
 ├── sql/
-│   └── metro_app.sql
+│   └── metro_app.sql          # MySQL DB schema (optional)
 │
-└── README.md
+└── README.md                  # Project documentation
 ```
+
 
 
 ---
