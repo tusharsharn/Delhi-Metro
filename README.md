@@ -30,25 +30,43 @@ This is a full-stack web application built using **PHP**, **MySQL**, **CSS**, an
 ## Folder & File Structure
 
 DelhiMetroApp/
-├── welcome.php # Homepage after login
-├── login.php # Login form
-├── signup.php # User registration
-├── logout.php # Session destroy/logout
-├── navigation.php # Navbar
-├── hr.php # HR job form
-├── operationmanagement.php # Operations job form
-├── finance.php # Finance job form
-├── intern.php # Internship form
-├── account.php # Accounts job form
-├── /partials # Database connection files
-│ ├── dbconnect.php
-│ └── formhandlers/
-│ ├── login-handler.php
-│ ├── signup-handler.php
-│ └── job-handlers.php
-├── style.css # Custom styling
-├── metro-map.php # Metro map display
-└── README.md
+│
+├── welcome.php                # Homepage after login
+├── login.php                  # User login page
+├── signup.php                 # User registration page
+├── logout.php                 # Session logout and redirect
+├── metro-map.php              # Static or embedded metro map
+├── navigation.php             # Navbar (included in every page)
+│
+├── hr.php                     # HR job application form
+├── operationmanagement.php    # Operations job form
+├── finance.php                # Finance job form
+├── intern.php                 # Internship application form
+├── account.php                # Accounts job form
+│
+├── style.css                  # Custom CSS styles
+│
+├── /assets/                   # (Optional) Static files: images, logos, metro map
+│   └── logo.png
+│
+├── /partials/                 # Common include files
+│   ├── dbconnect.php          # Central DB connection file
+│   └── alerts.php             # Bootstrap alert templates (optional)
+│
+├── /partials/forms/           # Form handlers for each form
+│   ├── handle_login.php
+│   ├── handle_signup.php
+│   ├── handle_hr.php
+│   ├── handle_operations.php
+│   ├── handle_finance.php
+│   ├── handle_intern.php
+│   └── handle_account.php
+│
+├── /sql/                      # Database schema (for import in phpMyAdmin)
+│   └── metro_app.sql
+│
+└── README.md                  # Project documentation
+
 
 
 ---
@@ -91,9 +109,6 @@ email VARCHAR(100),
 password VARCHAR(255)
 );
 
-<img width="1920" height="1027" alt="Screenshot (112)" src="https://github.com/user-attachments/assets/9242ccfd-9a38-491d-b64b-085c58cc9c52" />
-
-
 CREATE TABLE job_applications (
 id INT AUTO_INCREMENT PRIMARY KEY,
 user_id INT,
@@ -112,6 +127,10 @@ application_date DATE
 
 - Deploy live with a custom domain
 
+## Author
+👨‍💻 Tushar Saharan  
+📍 India  
+🔗 [LinkedIn](https://www.linkedin.com/in/tushar-saharan-55552a230/)  
+💼 GitHub: [tusharsharn](https://github.com/tusharsharn)  
+📧 Email: saharantushar58@gmail.com
 
-👤 Author
-Tushar Saharan
