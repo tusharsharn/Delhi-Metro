@@ -112,8 +112,7 @@ id INT AUTO_INCREMENT PRIMARY KEY,
 user_id INT,
 department VARCHAR(50),
 application_date DATE
-);'''
----
+);```
 
 ## Future Enhancements
 - Password encryption (bcrypt or password_hash)
